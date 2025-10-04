@@ -23,6 +23,14 @@ import Kiind from "public/projects/kiind.png";
 import Ages from "public/projects/ages.png";
 import EPMIS from "public/projects/epmis.png";
 import GemeDocs from "public/projects/gem-edocs.png";
+import desihakeemportfolio from "public/projects/desihakeemportfolio.png";
+import codebotx from "public/projects/codebotx.png";
+import gsmplayer from "public/projects/gsmplayer.png";
+import Maalmate from "public/projects/Maalmate.png";
+import ZadeyCosmogems from "public/projects/zadey.png";
+import portfolio from "public/projects/image.png";
+
+
 
 const ProjectSection: React.FC = () => {
   const { theme } = useTheme();
@@ -251,7 +259,7 @@ const projects = [
     type: "Frontend",
     image: (
       <Image
-        src={GemeDocs}
+        src={desihakeemportfolio}
         sizes="100vw"
         fill
         alt="Desi Hakeem "
@@ -270,7 +278,7 @@ const projects = [
     type: "Frontend",
     image: (
       <Image
-        src={GemeDocs}
+        src={codebotx}
         sizes="100vw"
         fill
         alt="Codebotx"
@@ -289,7 +297,7 @@ const projects = [
     type: "Frontend",
     image: (
       <Image
-        src={GemeDocs}
+        src={gsmplayer}
         sizes="100vw"
         fill
         alt="Gsm Player"
@@ -304,20 +312,58 @@ const projects = [
     githubApi: "https://api.github.com/repos/satnaing/astro-paper",
   },
   {
-    title: "Zpl",
+    title: "Maalmate - Your Financial Freedom Starts Here",
     type: "Frontend",
     image: (
       <Image
-        src={GemeDocs}
+        src={Maalmate}
         sizes="100vw"
         fill
         alt="Zpl"
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "Zpl ",
-    tags: ["Zpl", "Resend mails","Next-auth", "Budget app","Portfolio", "TailwindCSS"],
-    liveUrl: "httpshttps://GsmPlayer.com",
+    desc: "Welcome to maalmate - Your Financial Freedom Starts Here ",
+    tags: ["Budget Tracker", "Resend mails","Next-auth", "Bank-level-security","Full-stack", "TailwindCSS"],
+    liveUrl: "https://zadey.vercel.app/",
+    codeUrl: "https://github.com/satnaing/astro-paper",
+    bgColor: "bg-[#9FD0E3]",
+    githubApi: "https://api.github.com/repos/satnaing/astro-paper",
+  },
+  {
+    title: "ZadeyCosmogems - Your Online shopping  Starts Here  ",
+    type: "Frontend",
+    image: (
+      <Image
+        src={ZadeyCosmogems}
+        sizes="100vw"
+        fill
+        alt="Zpl"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "Welcome to ZadeyCosmogems - Your Online shopping  Starts Here ",
+    tags: ["Budget Tracker", "Resend mails","Next-auth", "Bank-level-security","Full-stack", "TailwindCSS"],
+    liveUrl: "https://zadeycosmogems.vercel.app/",
+    codeUrl: "https://github.com/satnaing/astro-paper",
+    bgColor: "bg-[#9FD0E3]",
+    githubApi: "https://api.github.com/repos/satnaing/astro-paper",
+  },
+  {
+    title: "Personal Portfolio",
+    type: "Frontend",
+    image: (
+      <Image
+        src={portfolio}
+        sizes="100vw"
+        fill
+        alt="Zpl"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "Personal Portfolio",
+    tags: ["Personal Portfolio", "Resend mails","Next-auth", "Next js","Full-stack", "TailwindCSS"],
+    liveUrl: "https://arslanweb.vercel.app/",
     codeUrl: "https://github.com/satnaing/astro-paper",
     bgColor: "bg-[#9FD0E3]",
     githubApi: "https://api.github.com/repos/satnaing/astro-paper",
