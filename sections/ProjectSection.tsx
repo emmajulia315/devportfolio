@@ -26,7 +26,7 @@ import GemeDocs from "public/projects/gem-edocs.png";
 import desihakeemportfolio from "public/projects/desihakeemportfolio.png";
 import codebotx from "public/projects/codebotx.png";
 import gsmplayer from "public/projects/gsmplayer.png";
-import Maalmate from "public/projects/Maalmate.png";
+import Maalmate from "public/projects/maalmate.png";
 import ZadeyCosmogems from "public/projects/zadey.png";
 import portfolio from "public/projects/image.png";
 
