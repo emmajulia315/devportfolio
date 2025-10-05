@@ -362,7 +362,7 @@ const projects = [
       />
     ),
     desc: "Personal Portfolio",
-    tags: ["Personal Portfolio", "Resend mails","Next-auth", "Next js","Full-stack", "TailwindCSS"],
+    tags: ["Personal Portfolio", "Typescript","Next-auth", "Next js","Full-stack", "TailwindCSS"],
     liveUrl: "https://arslanweb.vercel.app/",
     codeUrl: "https://github.com/satnaing/astro-paper",
     bgColor: "bg-[#9FD0E3]",
