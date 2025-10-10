@@ -12,6 +12,7 @@ import useScrollActive from "hooks/useScrollActive";
 import satNaing from "../public/satnaing.webp";
 import AboutBgSvg from "@/components/AboutBgSvg";
 import EduGroup from "@/components/EduGroup";
+import Arslan from "../public/arslan.jpeg";
 
 const AboutSection: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -135,7 +136,7 @@ const AboutSection: React.FC = () => {
 
                 <div className="profile-picture overflow-hidden md:overflow-visible rounded-md md:shadow-2xl">
                   <Image
-                    src={satNaing}
+                    src={Arslan}
                     width={1700}
                     height={1790}
                     priority
