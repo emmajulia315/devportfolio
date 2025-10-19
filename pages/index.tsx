@@ -24,7 +24,7 @@ export const meta = {
     "Muhammad Arslan is a full-stack developer based in Pakistan. He is passionate about writing codes and developing web applications to solve real-life challenges.",
   author: "Muhammad Arslan",
   type: "website",
-  ogImage: `${process.env.NEXT_PUBLIC_URL}/satnaing-dev-og-new.png`,
+  ogImage: `${process.env.NEXT_PUBLIC_URL}/Muhammad Arslan.png`,
   siteName: "Muhammad Arslan",
   imageAlt: "Muhammad Arslan portfolio website",
 };
