@@ -56,8 +56,8 @@ const SocialLinks: React.FC<{ page?: string }> = ({ page }) => {
 const socialLinks = [
   {
     id: 1,
-    title: "Sat Naing's Github Profile",
-    link: "https://github.com/satnaing",
+    title: "Muhammad Arslan Github Profile",
+    link: "https://www.github.com/in/m-arslandev/",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ const socialLinks = [
   {
     id: 2,
     title: "Muhammad Arslan's LinkedIn Profile",
-    link: "https://www.linkedin.com/in/muhammad-arslan-b858ab2b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    link: "https://www.linkedin.com/in/m-arslandev/",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
